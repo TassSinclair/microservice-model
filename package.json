@@ -1,0 +1,29 @@
+{
+  "name": "microservice-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "",
+    "deploy": "serverless deploy --no-color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TassSinclair/microservice-model.git"
+  },
+  "author": "Tass Sinclair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TassSinclair/microservice-model/issues"
+  },
+  "homepage": "https://github.com/TassSinclair/microservice-model#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.235.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "serverless-webpack": "^5.1.5",
+    "webpack": "^4.8.1"
+  }
+}
